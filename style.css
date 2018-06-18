@@ -1,0 +1,19 @@
+.header {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+	background: #afeeee;
+}
+
+.header-text {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.link {
+	padding: 5px;
+	display: inline-block;
+	background: #9acd32;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
