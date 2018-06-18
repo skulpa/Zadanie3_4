@@ -41,7 +41,7 @@ if (mysqli_query($conn, $sql)) {
 $result = mysqli_query($conn, "SHOW COLUMNS FROM `SITES_VIEWED` LIKE 'content'");
 $exists = (mysqli_num_rows($result)) ? TRUE:FALSE;
 if (!$exists) {
-    // sql to ALTER table
+    // Dolaczenie danych 
     $sql = "ALTER TABLE SITES_VIEWED ADD content TEXT after site";
     if (mysqli_query($conn, $sql)) {
         echo "ALTER TABLE SITES_VIEWED successfully";
